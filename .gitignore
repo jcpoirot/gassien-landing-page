@@ -1,0 +1,11 @@
+# Brief, sources et médias (hébergés sur WordPress)
+202610/
+medias-wordpress/
+
+# Fichiers de travail
+apercu-local*.html
+modeles/
+gassien-landing.html
+
+# Système
+.DS_Store
