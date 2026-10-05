@@ -2,6 +2,8 @@
 
 Landing pages des campagnes Meta, intégrées dans WordPress via un bloc **HTML personnalisé** (modèle pleine page).
 
+Documentation complète (structure, design system, intégration WordPress, médias, suivi, règles de contenu, procédures) : [docs/documentation.md](docs/documentation.md).
+
 | Langue | Fichier | Page en ligne | `lp_page` (suivi) |
 |---|---|---|---|
 | FR | `gassien-landing-meta.html` | https://www.gassien.com/donnez-vie-a-vos-murs/ | `landing_meta` |
