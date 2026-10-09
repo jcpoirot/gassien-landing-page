@@ -7,6 +7,7 @@ Répondre en français.
 ## Fichiers
 
 - `gassien-landing-meta.html` (FR), `gassien-landing-meta-en.html` (EN), `gassien-landing-meta-de.html` (DE).
+- La version FR fait référence : les modifications de contenu se font d'abord en FR, puis sont traduites en EN et DE une fois validées.
 - Les trois ont **la même structure, le même CSS et le même JS**. Toute modification de style, de structure ou de script doit être appliquée aux trois. Seuls diffèrent : textes, `alt`/`aria-label`, liens (`/en/`, `/de/`), objet du mailto, `lp_page` (`landing_meta`, `landing_meta_en`, `landing_meta_de`).
 
 ## Règles techniques (le thème Shapely casse tout sinon)
@@ -24,7 +25,10 @@ Répondre en français.
 - Ne pas écrire « étagère » (shelf, Regal) : parler d'usages et de « composition » ou de « système mural modulable ».
 - Pas de prix « à partir de ». Mettre en avant le « prix affiché en direct » et les 3 exemples chiffrés (264 €, 627 €, 896 €).
 - « Le sur-mesure, sans ses contraintes » (pas « sans le prix »).
-- Bois : « bois massif issu de forêts gérées durablement » ; chêne massif, bouleau, hêtre laqué noir/blanc. Métal : noir, blanc, laiton.
+- Vocabulaire produit : des **bases murales** habillées de **planches** (pas « tablettes ») et d'**accessoires**. Toujours rappeler le principe « jeu de construction » et le côté multifonction grâce aux accessoires.
+- Bois : « bois massif issu de forêts gérées durablement » ; chêne massif, bouleau, hêtre laqué noir/blanc. Métal recouvert d'une protection époxy : noir, blanc, « couleur laiton » (jamais « laiton » seul, ce n'est pas du vrai laiton).
+- Ne pas répéter « devis » ni « chantier » d'un bloc à l'autre : « devis » n'apparaît que dans la colonne « sur-mesure classique » du comparatif.
+- Délai de livraison confirmé : 2 jours à une semaine.
 - Livraison offerte dès 150 € : France métropolitaine et Belgique uniquement. En DE, seulement dans le bandeau d'engagements, avec la restriction.
 - Pas de faux avis ni de chiffres inventés ; toute nouvelle promesse produit est à faire confirmer par le client.
 
@@ -36,4 +40,4 @@ Répondre en français.
 
 ## Git
 
-- Ne jamais committer `202610/` (brief, photos clients), `medias-wordpress/`, les aperçus `apercu-local*.html`, `modeles/`, `gassien-landing.html`.
+- Ne jamais committer `202610/` (brief, photos clients), `commentaires/` (retours client), `medias-wordpress/`, les aperçus `apercu-local*.html`, `modeles/`, `gassien-landing.html`.

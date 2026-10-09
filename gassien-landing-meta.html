@@ -57,13 +57,21 @@
 /* ---------- Hero ---------- */
 .lp-wrapper .lp-hero{padding:16px 0 40px}
 .lp-wrapper .lp-hero-grid{display:flex;flex-direction:column}
-.lp-wrapper .lp-hero-media{width:100%;max-width:calc(52vh * .8);max-width:calc(52svh * .8);margin:0 auto 22px;background:var(--lp-beige)}
+.lp-wrapper .lp-hero-media{width:100%;max-width:calc(44vh * .8);max-width:calc(44svh * .8);margin:0 auto 20px;background:var(--lp-beige)}
+.lp-wrapper .lp-hero-copy{display:flex;flex-direction:column}
+.lp-wrapper .lp-hero-copy .lp-actions{order:1;margin-top:20px}
+.lp-wrapper .lp-hero-copy .lp-hero-pros{order:2;margin-top:22px}
+.lp-wrapper .lp-hero-copy .lp-proof{order:3}
 .lp-wrapper .lp-hero-media video{width:100%;aspect-ratio:4/5;object-fit:cover}
 .lp-wrapper .lp-hero .lp-h1{margin-bottom:10px}
 .lp-wrapper .lp-hero-what{font-family:var(--lp-title);font-weight:500;font-size:clamp(17px,3.8vw,20.8px);line-height:1.4;color:var(--lp-ink);margin-bottom:10px}
 .lp-wrapper .lp-hero-price{margin-top:14px;font-size:15px;color:var(--lp-ink-soft)}
 .lp-wrapper .lp-hero-price strong{font-family:var(--lp-title);font-weight:600;color:var(--lp-ink);font-size:17px}
-.lp-wrapper .lp-proof{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:20px;font-size:13px;color:var(--lp-ink-soft)}
+.lp-wrapper .lp-proof{margin-top:22px;font-family:var(--lp-title);font-weight:600;font-size:16px;letter-spacing:.04em;color:var(--lp-ink)}
+.lp-wrapper .lp-hero-pros{display:grid;gap:9px;margin-top:18px}
+.lp-wrapper .lp-hero-pros li{position:relative;padding-left:26px;font-size:15px;line-height:1.45;color:var(--lp-ink-soft)}
+.lp-wrapper .lp-hero-pros li::before{content:"";position:absolute;left:3px;top:.32em;width:6px;height:11px;border:solid var(--lp-gold);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.lp-wrapper .lp-hero-pros strong{font-family:var(--lp-title);font-weight:600;color:var(--lp-ink)}
 /* ---------- Bandeau réassurance ---------- */
 .lp-wrapper .lp-trust{padding:28px 0}
 .lp-wrapper .lp-trust-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 16px}
@@ -143,6 +151,19 @@
 .lp-wrapper .lp-space-room{font-family:var(--lp-title);font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--lp-gold);margin-bottom:4px}
 .lp-wrapper .lp-space .lp-h3{font-size:17px;margin-bottom:6px}
 .lp-wrapper .lp-space .lp-text{font-size:14px;line-height:1.5}
+.lp-wrapper .lp-access-intro{margin-top:16px}
+.lp-wrapper .lp-access-intro strong{font-family:var(--lp-title);font-weight:600;color:var(--lp-ink)}
+.lp-wrapper .lp-acc-wrap{margin:-8px 0 40px}
+.lp-wrapper .lp-acc-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.lp-wrapper .lp-acc-bar .lp-space-room{margin:0}
+.lp-wrapper .lp-carousel-btn-sm{width:36px;height:36px;font-size:15px}
+.lp-wrapper .lp-acc{display:grid;grid-auto-flow:column;grid-auto-columns:40%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--lp-gutter);-webkit-overflow-scrolling:touch;margin:0 calc(var(--lp-gutter) * -1);padding:0 var(--lp-gutter) 4px;scrollbar-width:none}
+.lp-wrapper .lp-acc::-webkit-scrollbar{display:none}
+.lp-wrapper .lp-acc-item{scroll-snap-align:start;background:var(--lp-pale);border-radius:4px;padding:16px 12px 14px;text-align:center}
+.lp-wrapper .lp-acc-img{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.lp-wrapper .lp-acc-img img{width:auto;max-width:92%;max-height:100%;object-fit:contain}
+.lp-wrapper .lp-acc-name{font-family:var(--lp-title);font-weight:600;font-size:13px;line-height:1.3;color:var(--lp-ink)}
+.lp-wrapper .lp-acc-use{font-size:12px;line-height:1.4;color:var(--lp-ink-soft);margin-top:2px}
 .lp-wrapper .lp-walls{margin-top:48px}
 .lp-wrapper .lp-walls-intro{max-width:760px;margin-bottom:28px}
 .lp-wrapper .lp-walls-sign{margin-top:32px;font-size:17px}
@@ -168,7 +189,7 @@
 .lp-wrapper .lp-sw-noir{background:linear-gradient(135deg,#3A3A3A,#141414)}
 .lp-wrapper .lp-sw-blanc{background:linear-gradient(135deg,#FFFFFF,#ECEAE6)}
 .lp-wrapper .lp-sw-laiton{background:linear-gradient(135deg,#E3C97A,#A8862F 60%,#D9BC68)}
-.lp-wrapper .lp-finish-combo{margin-top:24px;text-align:center;font-family:var(--lp-title);font-weight:500}
+.lp-wrapper .lp-head .lp-finish-promise{font-size:20px;line-height:1.35;margin:0 0 12px}
 .lp-wrapper .lp-samples{margin-top:28px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
 .lp-wrapper .lp-samples p{max-width:560px;color:var(--lp-ink-soft)}
 /* ---------- Professionnels ---------- */
@@ -224,6 +245,8 @@
 .lp-wrapper .lp-space .lp-h3{font-size:19px}
 .lp-wrapper .lp-carousel{grid-auto-columns:calc((100% - 2 * 20px) / 2.4);gap:20px}
 .lp-wrapper .lp-carousel-nav{display:flex}
+.lp-wrapper .lp-acc{grid-auto-columns:calc((100% - 3 * 14px) / 3.5);gap:14px}
+.lp-wrapper .lp-acc-wrap{margin-bottom:48px}
 .lp-wrapper .lp-carousel-hint{display:none}
 .lp-wrapper .lp-compare tr{grid-template-columns:minmax(0,1.1fr) repeat(2,minmax(0,1.4fr));column-gap:16px;align-items:start}
 .lp-wrapper .lp-compare thead .lp-col-empty{display:block}
@@ -242,6 +265,8 @@
 @media (min-width:960px){
 .lp-wrapper .lp-carousel{grid-auto-columns:calc((100% - 3 * 20px) / 4);margin:0;padding:0 0 4px;scroll-padding-inline:0}
 .lp-wrapper .lp-spaces-4{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.lp-wrapper .lp-acc{grid-auto-columns:calc((100% - 4 * 16px) / 5);gap:16px;margin:0;padding:0 0 4px;scroll-padding-inline:0}
+.lp-wrapper .lp-acc-wrap{margin-bottom:56px}
 .lp-wrapper{--lp-gutter:40px;--lp-section:104px}
 .lp-wrapper .lp-topbar .lp-container{height:74px}
 .lp-wrapper .lp-logo{height:40px}
@@ -250,6 +275,9 @@
 .lp-wrapper .lp-hero-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:64px;align-items:center}
 .lp-wrapper .lp-hero-media{order:2;margin:0;justify-self:end;max-width:calc(76vh * .8)}
 .lp-wrapper .lp-hero-copy{order:1}
+.lp-wrapper .lp-hero-copy .lp-actions,.lp-wrapper .lp-hero-copy .lp-hero-pros,.lp-wrapper .lp-hero-copy .lp-proof{order:0}
+.lp-wrapper .lp-hero-copy .lp-actions{margin-top:24px}
+.lp-wrapper .lp-hero-copy .lp-hero-pros{margin-top:18px}
 .lp-wrapper .lp-hero .lp-h1{margin-bottom:16px}
 .lp-wrapper .lp-trust{padding:36px 0}
 .lp-wrapper .lp-how-intro{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:56px;align-items:center;margin-bottom:64px}
@@ -302,9 +330,14 @@
       </div>
       <div class="lp-hero-copy">
         <h1 class="lp-h1">Donnez vie à vos murs.</h1>
-        <p class="lp-hero-what">Bibliothèque, bureau, dressing, mur végétal… un seul système mural modulable, fabriqué en France.</p>
-        <p class="lp-lead lp-text">Le rendu du <span class="lp-nowrap">sur-mesure</span>, sans ses contraintes : ni devis, ni budget qui s’envole. Composez en quelques clics un aménagement adapté à votre mur, à vos goûts et à vos usages.</p>
-        <p class="lp-hero-price"><strong>Prix affiché en direct</strong> pendant que vous composez · Livraison offerte dès 150 €</p>
+        <p class="lp-hero-what">Des bases murales, des planches et des accessoires à combiner comme un jeu de construction : bibliothèque, bureau, dressing, mur végétal…</p>
+        <p class="lp-lead lp-text">Composez en quelques clics un aménagement adapté à votre mur, à vos goûts et à vos usages.</p>
+        <ul class="lp-hero-pros">
+          <li><strong>Prix affiché en direct</strong> pendant que vous composez</li>
+          <li><strong>Simple et rapide</strong> : livré en 2 jours à une semaine</li>
+          <li><strong>Multifonction</strong> : des accessoires pour chaque usage</li>
+          <li><strong>Évolutif</strong> : votre composition se reconfigure au gré de vos besoins</li>
+        </ul>
         <div class="lp-actions">
           <a class="lp-btn lp-btn-primary lp-btn-arrow" href="https://www.gassien.com/maker/" data-lp-event="click_configurator" data-lp-pos="hero" data-lp-cta>Créer ma composition</a>
           <a class="lp-btn lp-btn-ghost" href="https://www.gassien.com/produit/echantillons-matieres/" data-lp-event="click_samples" data-lp-pos="hero">Commander des échantillons</a>
@@ -329,8 +362,8 @@
     <div class="lp-container">
       <div class="lp-how-intro">
         <div class="lp-head lp-reveal">
-          <h2 class="lp-h2">Votre mur transformé en 5 étapes</h2>
-          <p class="lp-lead lp-text">Pas de menuisier, pas de devis, pas de chantier : vous gardez la main du premier coup de mètre au dernier objet posé.</p>
+          <h2 class="lp-h2">5 étapes simples et rapides</h2>
+          <p class="lp-lead lp-text">De la mesure à la décoration, chaque étape est pensée pour aller vite et rester simple. Vous gardez la main du premier coup de mètre au dernier objet posé.</p>
         </div>
         <div class="lp-reveal">
           <div class="lp-video-frame">
@@ -338,7 +371,7 @@
               <source data-src="https://www.gassien.com/wp-content/uploads/2026/10/VIDEO_CONCEPT.mp4" type="video/mp4">
             </video>
           </div>
-          <p class="lp-video-caption"><strong>Comme un jeu de construction :</strong> des bases murales, des tablettes et des accessoires à combiner librement.</p>
+          <p class="lp-video-caption"><strong>Comme un jeu de construction :</strong> des bases murales, des planches et des accessoires à combiner librement.</p>
         </div>
       </div>
       <ol class="lp-how">
@@ -348,15 +381,15 @@
         </li>
         <li class="lp-how-step lp-reveal">
           <div class="lp-how-badge"><svg class="lp-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="3" y="5" width="26" height="17" rx="1.5"/><path d="M12.5 27h7M16 22v5"/><path d="M10 9.5v9M16 9.5v9M22 9.5v9M8 12.5h16M8 16h16"/></svg><span class="lp-how-num" aria-hidden="true">2</span></div>
-          <div><h3 class="lp-h3"><span class="lp-sr">Étape 2 : </span>Composez en ligne</h3><p>Placez vos éléments dans le configurateur, essayez, déplacez, recommencez. Le prix s’affiche en direct.</p></div>
+          <div><h3 class="lp-h3"><span class="lp-sr">Étape 2 : </span>Composez en ligne</h3><p>Placez vos éléments dans le configurateur, essayez, déplacez, recommencez, jusqu’à trouver la composition qui vous ressemble.</p></div>
         </li>
         <li class="lp-how-step lp-reveal">
           <div class="lp-how-badge"><svg class="lp-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M4 10.5l12-5 12 5v12l-12 5-12-5z"/><path d="M4 10.5l12 5 12-5M16 15.5v12"/><path d="M10 8l12 5"/></svg><span class="lp-how-num" aria-hidden="true">3</span></div>
-          <div><h3 class="lp-h3"><span class="lp-sr">Étape 3 : </span>Recevez votre kit</h3><p>Commandez en quelques clics : tous les éléments arrivent chez vous, livraison offerte dès 150 €.</p></div>
+          <div><h3 class="lp-h3"><span class="lp-sr">Étape 3 : </span>Recevez votre kit</h3><p>Commandez en quelques clics : tous les éléments sont livrés directement chez vous.</p></div>
         </li>
         <li class="lp-how-step lp-reveal">
           <div class="lp-how-badge"><svg class="lp-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M9 4v17M16 4v17M23 4v17M6 8h20M6 13h20"/><path d="M5 21h22" style="stroke-width:2.4"/><path d="M8 26.5h16"/></svg><span class="lp-how-num" aria-hidden="true">4</span></div>
-          <div><h3 class="lp-h3"><span class="lp-sr">Étape 4 : </span>Installez en toute simplicité</h3><p>Fixez les bases au mur, positionnez les tablettes et les accessoires où vous voulez. Pas besoin d’être un pro du bricolage.</p></div>
+          <div><h3 class="lp-h3"><span class="lp-sr">Étape 4 : </span>Installez en toute simplicité</h3><p>Fixez les bases au mur, positionnez les planches et les accessoires où vous voulez. Pas besoin d’être un pro du bricolage.</p></div>
         </li>
         <li class="lp-how-step lp-reveal">
           <div class="lp-how-badge"><svg class="lp-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M10 27.5h9l1.2-7H8.8z"/><path d="M14.5 20.5c0-5-3-8.5-7.5-8.5 0 4.5 3 8 7.5 8.5z"/><path d="M14.5 20.5c0-6.5 3.5-11 9-11 0 5.5-3.5 10-9 11z"/></svg><span class="lp-how-num" aria-hidden="true">5</span></div>
@@ -373,18 +406,19 @@
     <div class="lp-container">
       <div class="lp-head lp-reveal">
         <h2 class="lp-h2">Le <span class="lp-nowrap">sur-mesure</span>, sans les contraintes du <span class="lp-nowrap">sur-mesure</span>.</h2>
-        <p class="lp-lead lp-text">Un aménagement adapté à votre mur, sans budget qui s’envole, sans visite ni devis, et qui ne reste pas figé : vous voyez le prix de votre composition pendant que vous la créez.</p>
+        <p class="lp-lead lp-text">Un aménagement adapté à votre mur, avec des prix transparents et sans mauvaise surprise, qui continue d’évoluer avec vos besoins comme avec votre budget.</p>
       </div>
       <table class="lp-compare lp-reveal">
         <thead>
           <tr><th class="lp-col-empty" aria-hidden="true"></th><th scope="col" class="lp-col-them">Sur-mesure classique</th><th scope="col" class="lp-col-us">Gassien</th></tr>
         </thead>
         <tbody>
-          <tr><th scope="row">Prix</th><td class="lp-them">Sur devis, souvent élevé</td><td class="lp-us">Affiché en direct pendant que vous composez, sans devis</td></tr>
-          <tr><th scope="row">Démarche</th><td class="lp-them">Visite, prise de cotes, devis, attente</td><td class="lp-us">Vous composez en ligne, en quelques clics</td></tr>
+          <tr><th scope="row">Prix et budget</th><td class="lp-them">Sur devis, souvent élevé, payé en une fois</td><td class="lp-us">Transparent et progressif : affiché en direct, vous commencez petit et complétez au fil de vos besoins</td></tr>
+          <tr><th scope="row">Démarche et délais</th><td class="lp-them">Visite, prise de cotes, devis, fabrication, attente</td><td class="lp-us">Composition en ligne en quelques clics, livraison en 2 jours à une semaine</td></tr>
           <tr><th scope="row">Adapté à votre mur</th><td class="lp-them">Oui</td><td class="lp-us">Oui : hauteur, largeur, angle, pierre ou brique</td></tr>
-          <tr><th scope="row">Dans le temps</th><td class="lp-them">Figé une fois installé</td><td class="lp-us">Modulable : on ajoute, on déplace, on fait évoluer</td></tr>
-          <tr><th scope="row">En cas de déménagement</th><td class="lp-them">Reste dans le logement</td><td class="lp-us">Se démonte et vous suit</td></tr>
+          <tr><th scope="row">Personnalisation</th><td class="lp-them">Figée au projet de départ</td><td class="lp-us">Adaptée à votre espace comme à vos usages, grâce aux accessoires multifonctions</td></tr>
+          <tr><th scope="row">Design</th><td class="lp-them">Souvent massif</td><td class="lp-us">Léger : une structure fine qui laisse respirer le mur</td></tr>
+          <tr><th scope="row">Durabilité</th><td class="lp-them">Figé une fois installé, reste dans le logement</td><td class="lp-us">Reconfigurable selon vos nouveaux besoins, et vous suit en cas de déménagement</td></tr>
         </tbody>
       </table>
       <!-- Exemples de prix : compositions réelles chiffrées dans le configurateur (prix à mettre à jour si le tarif change) -->
@@ -401,7 +435,7 @@
           </li>
           <li class="lp-example-item">
             <img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_PRIX_3.webp" alt="Composition Gassien de salon en métal noir et chêne avec lampe, cadre et objets déco, au-dessus d’un fauteuil" loading="lazy" decoding="async" width="900" height="900">
-            <div class="lp-example-body"><p class="lp-example-label">Grand mur</p><p class="lp-example-desc">Métal noir et tablettes en chêne : lampe, cadre et objets déco.</p><p class="lp-example-price">896 €</p></div>
+            <div class="lp-example-body"><p class="lp-example-label">Grand mur</p><p class="lp-example-desc">Métal noir et planches en chêne : lampe, cadre et objets déco.</p><p class="lp-example-price">896 €</p></div>
           </li>
         </ul>
       </div>
@@ -439,7 +473,7 @@
         <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_12.webp" alt="Chambre d’enfant : composition Gassien blanche avec cartables, cadre et jouets" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Chambre d’enfant</p><p class="lp-client-credit">@jaimepaslesdimanches</p></figcaption></figure>
         <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_13.webp" alt="Coin salon : composition Gassien au-dessus d’une banquette d’angle entourée de plantes" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Coin salon</p><p class="lp-client-credit">@space_factory_paris</p></figcaption></figure>
         <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_14.webp" alt="Pièce de vie : composition Gassien au-dessus d’une cheminée en marbre, avec bouquet de fleurs" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Pièce de vie</p><p class="lp-client-credit">@fragments__studio</p></figcaption></figure>
-        <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_15.webp" alt="Chambre : composition Gassien blanche avec livres, cadre et tablettes en chêne" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Chambre</p><p class="lp-client-credit">@decodagecreation</p></figcaption></figure>
+        <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_15.webp" alt="Chambre : composition Gassien blanche avec livres, cadre et planches en chêne" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Chambre</p><p class="lp-client-credit">@decodagecreation</p></figcaption></figure>
         <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_16.webp" alt="Séjour baigné de soleil : composition Gassien au-dessus d’un canapé" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Séjour</p><p class="lp-client-credit">@atelier159</p></figcaption></figure>
         <figure class="lp-client"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_CLIENT_17.webp" alt="Salon : composition Gassien bibliothèque au-dessus d’un canapé, parquet en point de Hongrie" loading="lazy" decoding="async" width="800" height="800"><figcaption><p class="lp-space-room">Salon</p><p class="lp-client-credit">@elodiegiraud</p></figcaption></figure>
       </div>
@@ -455,10 +489,31 @@
       <div class="lp-head lp-reveal">
         <h2 class="lp-h2">Ce que Gassien change dans chaque pièce</h2>
         <p class="lp-lead lp-text">Bibliothèque, bureau, dressing, mur végétal ou présentoir : fixée au mur, votre composition libère le sol et devient exactement ce dont vous avez besoin, là où vous en avez besoin.</p>
+        <p class="lp-text lp-access-intro"><strong>Multifonction grâce aux accessoires.</strong> Une même composition peut ranger, suspendre, présenter, accueillir un bureau ou des plantes : il suffit de choisir les accessoires qui correspondent à vos usages.</p>
+      </div>
+      <div class="lp-acc-wrap lp-reveal">
+        <div class="lp-acc-bar">
+          <p class="lp-space-room">Quelques accessoires</p>
+          <div class="lp-carousel-nav">
+            <button type="button" class="lp-carousel-btn lp-carousel-btn-sm" data-lp-dir="-1" aria-label="Accessoires précédents">←</button>
+            <button type="button" class="lp-carousel-btn lp-carousel-btn-sm" data-lp-dir="1" aria-label="Accessoires suivants">→</button>
+          </div>
+        </div>
+        <ul class="lp-acc" tabindex="0" aria-label="Exemples d’accessoires">
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/20210818_porteOrdi_2_plie.png" alt="" loading="lazy" decoding="async" width="1244" height="924"></div><p class="lp-acc-name">Porte-ordinateur</p><p class="lp-acc-use">Un bureau au mur</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2026/10/GASSIEN_Penderie_grande.png" alt="" loading="lazy" decoding="async" width="1207" height="584"></div><p class="lp-acc-name">Penderie</p><p class="lp-acc-use">Une barre pour suspendre vos vêtements</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/20211022_pcadreV3_400x2_plie.png" alt="" loading="lazy" decoding="async" width="2045" height="688"></div><p class="lp-acc-name">Porte-cadres</p><p class="lp-acc-use">Cadres, affiches, livres</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/20211022_pvaseV3_100x2_plie.png" alt="" loading="lazy" decoding="async" width="1189" height="659"></div><p class="lp-acc-name">Porte-vases</p><p class="lp-acc-use">Fleurs et soliflores</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/PotHolder11.png" alt="" loading="lazy" decoding="async" width="1519" height="600"></div><p class="lp-acc-name">Porte-pots</p><p class="lp-acc-use">Plantes, vases, pots à crayons…</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/Crochets.png" alt="" loading="lazy" decoding="async" width="635" height="329"></div><p class="lp-acc-name">Crochets</p><p class="lp-acc-use">Sacs, clés, torchons</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/Porte-serviette-60.png" alt="" loading="lazy" decoding="async" width="1271" height="365"></div><p class="lp-acc-name">Porte-serviettes</p><p class="lp-acc-use">Serviettes et linge</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/PorteCintre_V1.png" alt="" loading="lazy" decoding="async" width="1303" height="869"></div><p class="lp-acc-name">Porte-cintres</p><p class="lp-acc-use">Cintres présentés de face</p></li>
+          <li class="lp-acc-item"><div class="lp-acc-img"><img src="https://www.gassien.com/wp-content/uploads/2023/09/Lot3_RackAVerres_V1.png" alt="" loading="lazy" decoding="async" width="938" height="258"></div><p class="lp-acc-name">Racks à verres</p><p class="lp-acc-use">Verres à pied</p></li>
+        </ul>
       </div>
       <div class="lp-spaces">
         <figure class="lp-space lp-reveal">
-          <div class="lp-frame"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_ESPACE_CHAMBRE.webp" alt="Chambre aux tons rosés : composition murale Gassien en métal noir au-dessus du lit, avec tablettes et objets déco" loading="lazy" decoding="async" width="1050" height="1312"></div>
+          <div class="lp-frame"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_ESPACE_CHAMBRE.webp" alt="Chambre aux tons rosés : composition murale Gassien en métal noir au-dessus du lit, avec planches et objets déco" loading="lazy" decoding="async" width="1050" height="1312"></div>
           <figcaption><p class="lp-space-room">Chambre</p><h3 class="lp-h3">La table de nuit, au mur</h3><p class="lp-text">Lampe, livres, réveil et objets à portée de main, sans meuble qui encombre le sol autour du lit.</p></figcaption>
         </figure>
         <figure class="lp-space lp-reveal">
@@ -474,11 +529,11 @@
           <figcaption><p class="lp-space-room">Entrée</p><h3 class="lp-h3">Tout l’essentiel sur un petit pan de mur</h3><p class="lp-text">Clés, courrier, miroir et lampe : une entrée pratique, même dans un couloir étroit.</p></figcaption>
         </figure>
         <figure class="lp-space lp-reveal">
-          <div class="lp-frame"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_ESPACE_DRESSING.webp" alt="Dressing ouvert Gassien : vêtements suspendus, sacs et chaussures présentés sur tablettes en chêne" loading="lazy" decoding="async" width="931" height="1163"></div>
-          <figcaption><p class="lp-space-room">Dressing</p><h3 class="lp-h3">Un dressing ouvert, sans travaux</h3><p class="lp-text">Barre de penderie, tablettes pour pulls, sacs et chaussures : un dressing complet, sans porte ni caisson.</p></figcaption>
+          <div class="lp-frame"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_ESPACE_DRESSING.webp" alt="Dressing ouvert Gassien : vêtements suspendus, sacs et chaussures présentés sur planches en chêne" loading="lazy" decoding="async" width="931" height="1163"></div>
+          <figcaption><p class="lp-space-room">Dressing</p><h3 class="lp-h3">Un dressing ouvert, sans travaux</h3><p class="lp-text">Barre de penderie, planches pour pulls, sacs et chaussures : un dressing complet, sans porte ni caisson.</p></figcaption>
         </figure>
         <figure class="lp-space lp-reveal">
-          <div class="lp-frame"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_ESPACE_PRO.webp" alt="Boutique éphémère : mur Gassien présentant des céramiques sur tablettes en chêne" loading="lazy" decoding="async" width="1050" height="1312"></div>
+          <div class="lp-frame"><img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_ESPACE_PRO.webp" alt="Boutique éphémère : mur Gassien présentant des céramiques sur planches en chêne" loading="lazy" decoding="async" width="1050" height="1312"></div>
           <figcaption><p class="lp-space-room">Professionnels</p><h3 class="lp-h3">Un linéaire qui suit vos collections</h3><p class="lp-text">Boutique, bureau, restaurant ou hôtel : la composition se réorganise à chaque nouvelle collection ou saison.</p></figcaption>
         </figure>
       </div>
@@ -533,6 +588,7 @@
     <div class="lp-container">
       <div class="lp-head lp-reveal">
         <h2 class="lp-h2">Choisissez vos finitions</h2>
+        <p class="lp-strong lp-finish-promise">12 associations possibles, de la plus discrète à la plus affirmée.</p>
         <p class="lp-lead lp-text">Du bois massif issu de forêts gérées durablement, un métal fin et robuste : deux matières nobles, choisies pour durer, à associer selon votre intérieur.</p>
       </div>
       <div class="lp-finishes">
@@ -548,15 +604,14 @@
         </div>
         <div class="lp-finish-group lp-reveal">
           <h3 class="lp-h3">Les couleurs du métal</h3>
-          <p class="lp-finish-note">Un métal fin qui allège la composition et laisse respirer le mur.</p>
+          <p class="lp-finish-note">Un métal fin, recouvert d’une protection époxy, qui allège la composition et laisse respirer le mur.</p>
           <ul class="lp-swatches lp-swatches-3">
             <li class="lp-swatch"><span class="lp-swatch-dot lp-sw-noir" aria-hidden="true"></span>Noir</li>
             <li class="lp-swatch"><span class="lp-swatch-dot lp-sw-blanc" aria-hidden="true"></span>Blanc</li>
-            <li class="lp-swatch"><span class="lp-swatch-dot lp-sw-laiton" aria-hidden="true"></span>Laiton</li>
+            <li class="lp-swatch"><span class="lp-swatch-dot lp-sw-laiton" aria-hidden="true"></span>Couleur laiton</li>
           </ul>
         </div>
       </div>
-      <p class="lp-finish-combo lp-reveal">12 associations possibles, de la plus discrète à la plus affirmée.</p>
       <div class="lp-samples lp-reveal">
         <p>Vous hésitez entre deux finitions ? Recevez le kit d’échantillons chez vous : il vous est remboursé lors de votre premier achat.</p>
         <a class="lp-btn lp-btn-ghost lp-btn-arrow" href="https://www.gassien.com/produit/echantillons-matieres/" data-lp-event="click_samples" data-lp-pos="finitions">Commander des échantillons</a>
@@ -568,20 +623,19 @@
     <div class="lp-container lp-split lp-split-rev">
       <div class="lp-split-text lp-reveal">
         <h2 class="lp-h2" style="margin-bottom:16px">Et pour vos espaces professionnels</h2>
-        <p class="lp-lead lp-text">Gassien aménage aussi les lieux qui accueillent du public, avec la même liberté de composition.</p>
+        <p class="lp-lead lp-text">Gassien aménage aussi les lieux qui accueillent du public, avec la même liberté de composition et la même force de personnalisation.</p>
         <ul class="lp-chips" aria-label="Exemples de lieux">
           <li>Hôtels</li><li>Boutiques</li><li>Coworkings</li><li>Restaurants</li><li>Bureaux</li><li>Showrooms</li>
         </ul>
         <ul class="lp-checks">
-          <li><strong>Un agencement qui suit votre activité.</strong> On réorganise au fil des collections, des saisons ou des équipes, sans tout racheter.</li>
-          <li><strong>Une image soignée.</strong> Des lignes fines et intemporelles, 3 coloris de métal et 4 finitions de bois pour s’accorder à votre identité.</li>
-          <li><strong>Un accompagnement dédié.</strong> Une équipe à l’écoute de votre projet, et des produits modélisés sur 3D Warehouse pour vos architectes.</li>
+          <li><strong>Un agencement qui s’adapte à votre activité.</strong> Il évolue avec elle : vous le réorganisez au fil des collections, des saisons ou des équipes, sans tout racheter.</li>
+          <li><strong>Un design sobre et léger.</strong> Il s’efface au profit de votre style et laisse votre charte s’exprimer.</li>
+          <li><strong>Un accompagnement dédié.</strong> Services de personnalisation, suivi de votre projet et services 3D : nos produits sont modélisés sur 3D Warehouse pour vos architectes.</li>
         </ul>
         <div class="lp-actions">
           <a class="lp-btn lp-btn-primary lp-btn-lg" href="mailto:contact@gassien.com?subject=Projet%20professionnel%20Gassien" data-lp-event="click_contact" data-lp-pos="section_pro">Nous contacter</a>
           <a class="lp-btn lp-btn-ghost lp-btn-arrow" href="https://www.gassien.com/espace-pro/" data-lp-event="click_pro" data-lp-pos="section_pro">Découvrir l’offre pro</a>
         </div>
-        <p class="lp-contact-mail">ou écrivez-nous directement à <a class="lp-link" href="mailto:contact@gassien.com" data-lp-event="click_contact" data-lp-pos="section_pro_email">contact@gassien.com</a></p>
       </div>
       <div class="lp-split-media lp-reveal">
         <img src="https://www.gassien.com/wp-content/uploads/2026/10/IMG_PRO.webp" alt="Boutique de cosmétiques : linéaire mural Gassien noir et chêne garni de produits, une cliente se sert" loading="lazy" decoding="async" width="864" height="1080">
@@ -618,7 +672,7 @@
   <section class="lp-section lp-bg-ink lp-final">
     <div class="lp-container lp-reveal">
       <h2 class="lp-h2">À vous de composer.</h2>
-      <p class="lp-lead">Le rendu du <span class="lp-nowrap">sur-mesure</span>, sans ses contraintes. Composez votre aménagement et voyez son prix en quelques clics, sans engagement.</p>
+      <p class="lp-lead">Imaginez votre aménagement, voyez son prix et commandez en quelques clics, sans engagement.</p>
       <p class="lp-hero-price"><strong>Prix affiché en direct</strong>, sans engagement · Satisfait ou remboursé 15 jours</p>
       <div class="lp-actions">
         <a class="lp-btn lp-btn-primary lp-btn-arrow" href="https://www.gassien.com/maker/" data-lp-event="click_configurator" data-lp-pos="final" data-lp-cta>Créer ma composition</a>
@@ -711,10 +765,10 @@
   if(ck){ck.addEventListener('click',function(e){
     if(window.tarteaucitron&&tarteaucitron.userInterface&&typeof tarteaucitron.userInterface.openPanel==='function'){e.preventDefault();tarteaucitron.userInterface.openPanel();}
   });}
-  /* --- Carrousel clients : flèches (le défilement tactile est natif) --- */
-  [].forEach.call(root.querySelectorAll('.lp-carousel'),function(track){
+  /* --- Carrousels (clients, accessoires) : flèches, le défilement tactile est natif --- */
+  [].forEach.call(root.querySelectorAll('.lp-carousel,.lp-acc'),function(track){
     var btns=track.parentNode.querySelectorAll('.lp-carousel-btn');
-    function step(){var c=track.querySelector('.lp-client');return c?c.getBoundingClientRect().width+(parseFloat(getComputedStyle(track).columnGap)||0):track.clientWidth;}
+    function step(){var c=track.firstElementChild;return c?c.getBoundingClientRect().width+(parseFloat(getComputedStyle(track).columnGap)||0):track.clientWidth;}
     function upd(){var max=track.scrollWidth-track.clientWidth-2;[].forEach.call(btns,function(b){b.disabled=b.getAttribute('data-lp-dir')==='-1'?track.scrollLeft<=2:track.scrollLeft>=max;});}
     [].forEach.call(btns,function(b){b.addEventListener('click',function(){track.scrollBy({left:step()*parseInt(b.getAttribute('data-lp-dir'),10),behavior:reduce?'auto':'smooth'});});});
     track.addEventListener('scroll',upd,{passive:true});window.addEventListener('resize',upd);upd();

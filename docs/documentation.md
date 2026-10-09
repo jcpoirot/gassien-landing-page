@@ -191,7 +191,10 @@ Ces choix ont été validés et doivent être conservés lors des modifications 
 - **Ne pas employer le mot « étagère »** (shelf, Regal) : c'est réducteur. Parler d'usages (bibliothèque, bureau, dressing, mur végétal…) et de « composition » ou de « système mural modulable ».
 - **Promesse prix** : pas de prix « à partir de » (une petite composition à 100 € n'est pas représentative). On met en avant le « prix affiché en direct » et trois exemples réels chiffrés.
 - **Angle sur-mesure** : « le sur-mesure, sans ses contraintes » (et non « sans le prix »), le prix restant la première contrainte citée.
-- **Bois** : « bois massif issu de forêts gérées durablement » ; essences : chêne massif, bouleau, hêtre laqué noir, hêtre laqué blanc. Métal : noir, blanc, laiton.
+- **Description du produit** : des bases murales habillées de planches et d'accessoires, à combiner comme un jeu de construction. Le mot « planches » remplace « tablettes ». Le côté multifonction (accessoires) est mis en avant dans le hero, le comparatif et la section pièces.
+- **Bois** : « bois massif issu de forêts gérées durablement » ; essences : chêne massif, bouleau, hêtre laqué noir, hêtre laqué blanc. **Métal** : recouvert d'une protection époxy ; noir, blanc et « couleur laiton » (jamais « laiton » seul).
+- **Pas de répétition** de « devis » et « chantier » : « devis » n'apparaît que dans la colonne « sur-mesure classique » du comparatif.
+- **Délai de livraison** (confirmé par le client) : 2 jours à une semaine. Cité dans le hero et le tableau comparatif.
 - **Livraison offerte dès 150 €** : uniquement France métropolitaine et Belgique. La version **DE** ne l'affiche que dans le bandeau d'engagements, avec cette restriction (ni dans le hero, ni à l'étape 3).
 - **Prix des exemples** (264 €, 627 €, 896 €) : écrits en dur dans les trois fichiers, à mettre à jour si le tarif change. Format : `264 €` (FR, DE) et `€264` (EN).
 - **Photos clients** : crédits Instagram affichés, accord des clients obtenu. Les photos `@gassienparis` ne sont pas créditées.
