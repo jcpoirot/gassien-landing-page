@@ -20,8 +20,8 @@
 .lp-wrapper .lp-bg-white{background:var(--lp-white)}
 .lp-wrapper .lp-bg-ink{background:var(--lp-ink);color:var(--lp-white)}
 /* ---------- Typo ---------- */
-.lp-wrapper .lp-h1{font-family:var(--lp-title);font-weight:300;font-size:clamp(36px,8.6vw,68px);line-height:1.08;letter-spacing:-.02em}
-.lp-wrapper .lp-h2{font-family:var(--lp-title);font-weight:300;font-size:clamp(28px,6.2vw,48px);line-height:1.15;letter-spacing:-.015em}
+.lp-wrapper .lp-h1{font-family:var(--lp-title);font-weight:400;font-size:clamp(36px,8.6vw,68px);line-height:1.08;letter-spacing:-.02em}
+.lp-wrapper .lp-h2{font-family:var(--lp-title);font-weight:400;font-size:clamp(28px,6.2vw,48px);line-height:1.15;letter-spacing:-.015em}
 .lp-wrapper .lp-h3{font-family:var(--lp-title);font-weight:500;font-size:17px;line-height:1.35}
 .lp-wrapper .lp-lead{font-size:clamp(17px,3.6vw,20px);line-height:1.55}
 .lp-wrapper .lp-text{color:var(--lp-ink-soft)}
@@ -57,13 +57,14 @@
 /* ---------- Hero ---------- */
 .lp-wrapper .lp-hero{padding:16px 0 40px}
 .lp-wrapper .lp-hero-grid{display:flex;flex-direction:column}
-.lp-wrapper .lp-hero-media{width:100%;max-width:calc(44vh * .8);max-width:calc(44svh * .8);margin:0 auto 20px;background:var(--lp-beige)}
+.lp-wrapper .lp-hero-media{width:100%;max-width:calc(40vh * .8);max-width:calc(40svh * .8);margin:0 auto 20px;background:var(--lp-beige)}
 .lp-wrapper .lp-hero-copy{display:flex;flex-direction:column}
 .lp-wrapper .lp-hero-copy .lp-actions{order:1;margin-top:20px}
 .lp-wrapper .lp-hero-copy .lp-hero-pros{order:2;margin-top:22px}
 .lp-wrapper .lp-hero-copy .lp-proof{order:3}
 .lp-wrapper .lp-hero-media video{width:100%;aspect-ratio:4/5;object-fit:cover}
-.lp-wrapper .lp-hero .lp-h1{margin-bottom:10px}
+.lp-wrapper .lp-hero .lp-h1{margin-bottom:10px;font-size:clamp(30px,8vw,44px)}
+.lp-wrapper .lp-hero-eyebrow{font-family:var(--lp-title);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--lp-gold);margin-bottom:10px}
 .lp-wrapper .lp-hero-what{font-family:var(--lp-title);font-weight:500;font-size:clamp(17px,3.8vw,20.8px);line-height:1.4;color:var(--lp-ink);margin-bottom:10px}
 .lp-wrapper .lp-hero-price{margin-top:14px;font-size:15px;color:var(--lp-ink-soft)}
 .lp-wrapper .lp-hero-price strong{font-family:var(--lp-title);font-weight:600;color:var(--lp-ink);font-size:17px}
@@ -205,7 +206,7 @@
 /* ---------- Simple. Durable. ---------- */
 .lp-wrapper .lp-values .lp-h2{margin-bottom:28px}
 .lp-wrapper .lp-groups{display:grid;gap:32px}
-.lp-wrapper .lp-group-title{font-family:var(--lp-title);font-weight:300;font-size:clamp(20px,4.4vw,28px);letter-spacing:.04em;text-transform:uppercase;color:var(--lp-gold);margin-bottom:12px}
+.lp-wrapper .lp-group-title{font-family:var(--lp-title);font-weight:400;font-size:clamp(20px,4.4vw,28px);letter-spacing:.04em;text-transform:uppercase;color:var(--lp-gold);margin-bottom:12px}
 .lp-wrapper .lp-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .lp-wrapper .lp-tile{background:var(--lp-white);border-radius:4px;padding:16px 14px;font-family:var(--lp-title);font-weight:500;font-size:15px;line-height:1.35;height:96px;display:flex;align-items:center}
 /* ---------- CTA final ---------- */
@@ -278,7 +279,7 @@
 .lp-wrapper .lp-hero-copy .lp-actions,.lp-wrapper .lp-hero-copy .lp-hero-pros,.lp-wrapper .lp-hero-copy .lp-proof{order:0}
 .lp-wrapper .lp-hero-copy .lp-actions{margin-top:24px}
 .lp-wrapper .lp-hero-copy .lp-hero-pros{margin-top:18px}
-.lp-wrapper .lp-hero .lp-h1{margin-bottom:16px}
+.lp-wrapper .lp-hero .lp-h1{margin-bottom:16px;font-size:clamp(40px,3.8vw,54px)}
 .lp-wrapper .lp-trust{padding:36px 0}
 .lp-wrapper .lp-how-intro{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:56px;align-items:center;margin-bottom:64px}
 .lp-wrapper .lp-how{grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
@@ -329,9 +330,10 @@
         </video>
       </div>
       <div class="lp-hero-copy">
-        <h1 class="lp-h1">Donnez vie à vos murs.</h1>
+        <p class="lp-hero-eyebrow">Donnez vie à vos murs</p>
+        <h1 class="lp-h1">Composez votre aménagement mural sur mesure.</h1>
         <p class="lp-hero-what">Des bases murales, des planches et des accessoires à combiner comme un jeu de construction : bibliothèque, bureau, dressing, mur végétal…</p>
-        <p class="lp-lead lp-text">Composez en quelques clics un aménagement adapté à votre mur, à vos goûts et à vos usages.</p>
+        <p class="lp-lead lp-text">En quelques clics, un aménagement adapté à votre mur, à vos goûts et à vos usages.</p>
         <ul class="lp-hero-pros">
           <li><strong>Prix affiché en direct</strong> pendant que vous composez</li>
           <li><strong>Simple et rapide</strong> : livré en 2 jours à une semaine</li>
