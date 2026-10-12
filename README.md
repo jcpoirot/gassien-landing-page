@@ -29,5 +29,5 @@ Toute évolution de structure ou de style doit être reportée dans les trois fi
 ## Contenus à surveiller
 
 - Prix des exemples (264 €, 627 €, 896 €) : à mettre à jour si le tarif change.
-- Livraison offerte dès 150 € : France métropolitaine et Belgique uniquement (la version DE ne l'affiche que dans le bandeau d'engagements, avec cette restriction).
+- Livraison (bandeau d'engagements) : offerte dès 150 € en France et Belgique, 20 € en Allemagne, 40 € HT en Suisse. La version DE n'affiche que l'Allemagne et la Suisse. Source : page Livraison et retour de gassien.com.
 - Photos clients du carrousel : crédits Instagram affichés, accord des clients obtenu.

@@ -195,7 +195,7 @@ Ces choix ont été validés et doivent être conservés lors des modifications 
 - **Bois** : « bois massif issu de forêts gérées durablement » ; essences : chêne massif, bouleau, hêtre laqué noir, hêtre laqué blanc. **Métal** : recouvert d'une protection époxy ; noir, blanc et « couleur laiton » (jamais « laiton » seul).
 - **Pas de répétition** de « devis » et « chantier » : « devis » n'apparaît que dans la colonne « sur-mesure classique » du comparatif.
 - **Délai de livraison** (confirmé par le client) : 2 jours à une semaine. Cité dans le hero et le tableau comparatif.
-- **Livraison offerte dès 150 €** : uniquement France métropolitaine et Belgique. La version **DE** ne l'affiche que dans le bandeau d'engagements, avec cette restriction (ni dans le hero, ni à l'étape 3).
+- **Livraison** (carte du bandeau d'engagements, adaptée par langue) : offerte dès 150 € en France métropolitaine et Belgique ; forfait 20 € TTC en Allemagne ; 40 € HT en Suisse, taxes et frais de douane à la charge du client (source : page Livraison et retour de gassien.com). FR et EN citent les trois zones ; DE ne cite que l'Allemagne et la Suisse. La livraison offerte n'apparaît nulle part ailleurs dans la page (ni dans le hero, ni à l'étape 3).
 - **Prix des exemples** (264 €, 627 €, 896 €) : écrits en dur dans les trois fichiers, à mettre à jour si le tarif change. Format : `264 €` (FR, DE) et `€264` (EN).
 - **Photos clients** : crédits Instagram affichés, accord des clients obtenu. Les photos `@gassienparis` ne sont pas créditées.
 - **Pas de faux avis** : la preuve sociale repose sur les photos clients, pas sur des témoignages inventés.

@@ -29,7 +29,7 @@ Répondre en français.
 - Bois : « bois massif issu de forêts gérées durablement » ; chêne massif, bouleau, hêtre laqué noir/blanc. Métal recouvert d'une protection époxy : noir, blanc, « couleur laiton » (jamais « laiton » seul, ce n'est pas du vrai laiton).
 - Ne pas répéter « devis » ni « chantier » d'un bloc à l'autre : « devis » n'apparaît que dans la colonne « sur-mesure classique » du comparatif.
 - Délai de livraison confirmé : 2 jours à une semaine.
-- Livraison offerte dès 150 € : France métropolitaine et Belgique uniquement. En DE, seulement dans le bandeau d'engagements, avec la restriction.
+- Livraison (carte du bandeau d'engagements, adaptée par langue, pas une simple traduction) : offerte dès 150 € en France métropolitaine et Belgique ; forfait 20 € TTC en Allemagne, 40 € HT en Suisse (taxes et douane en sus). FR et EN citent les trois ; DE ne cite que l'Allemagne et la Suisse. Jamais de livraison offerte ailleurs dans la page.
 - Pas de faux avis ni de chiffres inventés ; toute nouvelle promesse produit est à faire confirmer par le client.
 
 ## Vérifier une modification
